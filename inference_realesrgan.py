@@ -22,7 +22,7 @@ def main():
               'realesr-animevideov3'))
     parser.add_argument('-o', '--output', type=str, default='results', help='Output folder')
     parser.add_argument('-s', '--outscale', type=float, default=4, help='The final upsampling scale of the image')
-    parser.add_argument('--suffix', type=str, default='out', help='Suffix of the restored image')
+    parser.add_argument('--suffix', type=str, default='', help='Suffix of the restored image')
     parser.add_argument('-t', '--tile', type=int, default=0, help='Tile size, 0 for no tile during testing')
     parser.add_argument('--tile_pad', type=int, default=10, help='Tile padding')
     parser.add_argument('--pre_pad', type=int, default=0, help='Pre padding size at each border')
